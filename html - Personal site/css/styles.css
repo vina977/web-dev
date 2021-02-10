@@ -1,0 +1,491 @@
+/********* tag selectors ******/
+body {
+  background-color: #f5e9e2;
+  width: 100%;
+  margin: 0px;
+}
+
+h1 {
+  Color: #773344;
+  font-family: fantasy;
+  font-style: oblique;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+hr {
+  background-color: #f5e9e2;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  border-color: #773344;
+  height: 0px;
+  width: 20%;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+/*********** Class selectors ******/
+/*
+h3
+{color: #cf1b1b;}
+*/
+.one {
+  color: #85182a;
+  font-size: 25px;
+  font-family: serif;
+}
+
+.two {
+  color: #85182a;
+  font-size: 20px;
+  font-family: serif;
+}
+
+.dresses {
+  background-color: #fdf5e6;
+  color: #85182a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  opacity: 0.8;
+  font-family: serif;
+}
+
+.dresses:hover {
+  background-color: #a7c5eb;
+}
+
+.mid {
+  background-color: #bdd5ea;
+  width: 55%;
+  height: 250%;
+  margin-top: 50px;
+  margin-left: 320px;
+  margin-right: 20px;
+  margin-bottom: 55px;
+  padding: 10px;
+  box-shadow: 10px 5px 5px #495057;
+  opacity: 0.8;
+}
+
+.mid:hover {
+  background-color: #f3ced2;
+}
+
+.img {
+  height: 1120px;
+  background-color: #bdd5ea;
+  width: 995px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  opacity: normal;
+}
+
+.img:hover {
+  background-color: #f3ced2;
+}
+
+.imge {
+  height: 500px;
+  width: 450px;
+  border-style: ridge;
+  border-color: #773344;
+  border-width: 5px;
+}
+
+.imge:hover {
+  opacity: 0.5;
+}
+
+.line {
+  line-height: 100%;
+  width: 80%;
+  text-align: center;
+  text-overflow: ellipsis;
+  line-height: 20px;
+}
+
+.F {
+  font-size: 70px;
+}
+
+.dropbtn {
+  background-color: #f3ced2;
+  color: #773344;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 880%;
+  position: center;
+  margin-top: 40%;
+  border-radius: 50%;
+  border-style: ridge;
+  border-color: #773344;
+  margin-top: 150%;
+  margin-bottom: 100%;
+  position: relative;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: 850%;
+  margin-top: -75px;
+  background-color: #f5e9e2;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.form {
+  background-color: #bdd5ea;
+  width: 30%;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 55px;
+  padding: 10px;
+  box-shadow: 10px 5px 5px #495057;
+  opacity: 0.8;
+  overflow: scroll;
+}
+
+.try {
+  position: relative;
+  margin-bottom: : 0px;
+  max-width: 500px;
+  margin-left: 14%;
+  margin-top: 1%;
+  display: inline-block;
+  padding: 10px;
+}
+
+.try .image-top {
+  position: absolute;
+  display: none;
+  top: 0px left: 0px;
+  z-index: 99;
+  box-shadow: 10px 5px 5px #495057;
+}
+
+.try:hover .image-top {
+  display: inline;
+}
+
+.try-text {
+  color: #f5e9e2;
+  font-size: 150px;
+  position: absolute;
+  margin-left: 40%;
+  margin-bottom: 600px;
+  margin-top: -15%;
+  padding: 20px;
+ text-align: left;
+ -webkit-text-stroke: 4px #773344;
+}
+
+
+.footer {
+  width: 100%;
+  height: 50px;
+  top: 200px;
+  background-color: #773344;
+  color: #f5e9e2;
+  text-align: center;
+  padding: 5px;
+  position: relative;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #773344;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.li {
+  float: left;
+  color: white;
+}
+
+.li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li a:hover:not(.active) {
+  background-color: #bdd5ea;
+}
+
+.active {
+  background-color: #bdd5ea;
+}
+
+.new-collection {
+  background-image: url(https://i2.wp.com/closeupart.org/wp-content/uploads/2020/03/rouje-paris-di-jeanne-damas.1.jpg?fit=1120%2C557&ssl=1);
+  background-size: cover;
+  height: 750px;
+  margin-top: 0px;
+  position: relative;
+  background-size: cover;
+  padding: 20px;
+}
+
+.inside {
+  position: absolute;
+  display: inline-block;
+  margin-top: 690px;
+  margin-left: 41%;
+}
+
+.button-discover {
+  background: #F3CED2;
+  background-image: -webkit-linear-gradient(top, #F3CED2, #BDD5EA);
+  background-image: -moz-linear-gradient(top, #F3CED2, #BDD5EA);
+  background-image: -ms-linear-gradient(top, #F3CED2, #BDD5EA);
+  background-image: -o-linear-gradient(top, #F3CED2, #BDD5EA);
+  background-image: -webkit-gradient(to bottom, #F3CED2, #BDD5EA);
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 19px;
+  font-weight: 400;
+  padding: 15px;
+  border-color-hover: ;
+  border-style-hover: solid;
+  border-width-hover: 1;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #F3F2DA 0;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: -80% auto;
+}
+
+.button-discover:hover {
+  background: #BDD5EA;
+  background-image: -webkit-linear-gradient(top, #BDD5EA, #EE99A0);
+  background-image: -moz-linear-gradient(top, #BDD5EA, #EE99A0);
+  background-image: -ms-linear-gradient(top, #BDD5EA, #EE99A0);
+  background-image: -o-linear-gradient(top, #BDD5EA, #EE99A0);
+  background-image: -webkit-gradient(to bottom, #BDD5EA, #EE99A0);
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+/***about page*****************/
+.parent {
+  width: 90%;
+  height: 705px;
+  background-color: #bdd5ea;
+  position: relative;
+  left: 65px;
+  bottom: 50px;
+  box-shadow: 10px 5px 5px #495057;
+  top: 45px;
+}
+
+.parent:hover {
+  background-color: #f3ced2;
+  box-shadow: 10px 5px 5px #495057;
+}
+
+.child {
+  position: absolute;
+  display: inline-block;
+  width: 400px;
+  height: 600px;
+  border-style: ridge;
+  border-width: 5px;
+  border-color: #773344;
+}
+
+.child:hover {
+  opacity: 0.5;
+}
+
+.para {
+  position: absolute;
+  top: -10px;
+  left: 530px;
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-size: 170%;
+  color: #773344;
+  font-weight: bolder;
+}
+
+/************** Blazer*********************/
+.blazer {
+  position: relative;
+  width: 90%;
+  height: 800px;
+  background-color: #bdd5ea;
+  box-shadow: 10px 5px 5px #495057;
+  top: 50px;
+}
+
+.blazer:hover {
+  background-color: #f3ced2;
+  box-shadow: 10px 5px 5px #495057;
+}
+
+.blazer-image {
+  position: absolute;
+  display: inline-block;
+  width: 510px;
+  height: 700px;
+  top: 38px;
+  right: 750px;
+  transition: 0.2s;
+}
+
+.blazer-image:hover {
+  transform: scale(1.07);
+}
+
+.blazer-heading {
+  font-family: sans-serif;
+  font-style: normal;
+  position: absolute;
+  display: inline-block;
+  top: 10px;
+  right: 190px;
+  font-size: 200%;
+  padding: 10px;
+}
+
+.span {
+  display: inline-block;
+  position: absolute;
+}
+
+.blazer-dis {
+  position: absolute;
+  display: inline-block;
+  background-color: #f5e9e2;
+  width: 35%;
+  height: 37%;
+  color: #773344;
+  padding: 30px;
+  text-overflow: ellipsis;
+  bottom: 7.5%;
+  left: 50%;
+  text-align: left;
+  padding-right: 0px;
+  font-style: justify;
+}
+
+.blazer-price {
+  position: absolute;
+  display: inline-block;
+  font-size: 260%;
+  font-family: sans-serif;
+  color: #773344;
+  top: 80px;
+}
+
+/********** id seectors *******/
+#try {
+  background-color: white;
+}
+
+#top {
+  background-color: #e3b5a4;
+  width: 100%;
+  height: 80px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+#top:hover {
+  background-color: #f3ced2;
+}
+
+#mission {
+  background-color: #f3ced2;
+  width: 60%;
+  height: 250%;
+  border-color: #f5e9e2;
+  border-radius: 100px;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: 295px;
+  margin-bottom: 60px;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  box-shadow: 10px 5px 5px #495057;
+  opacity: 0.8;
+}
+
+#mission:hover {
+  background-color: #bdd5ea;
+}
+
+#title:hover {
+  color: #a7c5eb;
+}
+
+#moto {
+  font-size: 130px;
+  font-family: serif;
+  color: #773344;
+  text-shadow: 1.5px 1.5px #f5e9e2;
+  font-weight: bolder;
+}
+
+#only {
+  text-decoration: none;
+}
